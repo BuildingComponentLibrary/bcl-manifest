@@ -1,2 +1,68 @@
-# bcl-manifest
-Manifest of all content repos on the BCL
+# Building Component Library Manifest
+
+This repo is a manifest of all GitHub repositories providing content to the BCL.  Repos can be either `component` or `measure` repos.  Repos must be public and hosted on [Github.com](https://github.com).
+
+## Contribute Content
+
+Follow the instructions below to contribute content to the BCL.  All contributed content is public and accessible to all.
+
+1. Review the sections below to learn how to gather existing content or create new content for the BCL.
+
+1. Once your repository is created, clone the [BCL Manifest](https://github.com/BuildingComponentLibrary/bcl-manifest) repository and add a section to the `bcl_manifest.json` file with basic information about your repo:
+	- github repo name
+	- github organization
+	- type of repo (enter either `measure` or `component`)
+	- github URL of the repo
+
+1. Create a Pull Request with your changes.  A BCL admin will review your request and repository.  If acceptable, the PR will be merged to the main branch.
+
+1. Once the PR is merged, set up webhooks on your repository so that releases are automatically added to the BCL:
+	- Select `webhooks` from the left navigation menu on your repo's `settings` page, or go to `settings/hooks`.
+
+	- Click on the *Add webhook* button
+
+		- Enter the payload URL: `TO BE DETERMINED`
+		- Set the content type to: `application/json`
+		- Select `Enable SSL verification`
+		- Select `Let me select individual events` and click on the `Releases` checkbox.  We will only pull content when a release is created and published.
+		- Click the *Add webhook* button at the bottom of the page.
+
+1.  Create a release by going to your repo's `releases` url.
+		
+	- Click on the *Draft a new release* button
+	- Enter a title, tag version, name, and description.
+	- Do not check the *This is a pre-release* checkbox if you want your release added to the BCL.
+	- When you are ready click on *Publish release* button
+
+1.  The BCL will then index your new content.  To see the status of your repo, including indexing errors, visit the BCL's Dashboard page.
+
+
+## Existing Content
+
+### Measure Repos
+
+Measure repositories should be structured as an [OpenStudio Extension Gem](https://github.com/NREL/openstudio-extension-gem).
+
+- Follow the directions to [initialize a new extension gem](https://github.com/NREL/openstudio-extension-gem#initializing-a-new-extension-gem) for your measures
+
+- Measures should be placed in the `lib/measures/` directory.
+
+- Use the rake tasks provided by the OpenStudio Extension Gem to test your measures:
+	```ruby
+	bundle exec rake openstudio:update_measures
+	bundle exec rake openstudio:test_with_openstudio
+	```
+
+- Commit the updates back to your repo.
+
+### Component Repos
+
+The appropriate structure for component repositories is to place components in the `lib/components/` directory.
+
+There are no tests to run on components at this time.
+
+
+
+## Developing New Content
+
+<TODO>: Describe the workflow to follow for making new components and measures (and creating UUID/VersionID.  Point to the measure and component taxonomies. 
