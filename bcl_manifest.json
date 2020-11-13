@@ -4,11 +4,11 @@ repos = [
 		"org": "BuildingComponentLibrary",
 		"type": "measure",
 		"url": "https://github.com/BuildingComponentLibrary/bcl-test-measures-gem"
-
-	},{
+	},
+	{
 		"name": "bcl-test-components",
 		"org": "BuildingComponentLibrary",
-		"type": "measure",
+		"type": "component",
 		"url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
 	}
 ]

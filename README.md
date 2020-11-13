@@ -14,6 +14,8 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 	- type of repo (enter either `measure` or `component`)
 	- github URL of the repo
 
+	![example manifest](/assets/manifest_example.png)
+
 1. Create a Pull Request with your changes.  A BCL admin will review your request and repository.  If acceptable, the PR will be merged to the main branch.
 
 1. Once the PR is merged, set up webhooks on your repository so that releases are automatically added to the BCL:
@@ -27,6 +29,10 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 		- Select `Let me select individual events` and click on the `Releases` checkbox.  We will only pull content when a release is created and published.
 		- Click the *Add webhook* button at the bottom of the page.
 
+	! [webhook setup part 1](/assets/webhook_pt1.png)
+	! [webhook setup part 2](/assets/webhook_pt2.png)
+
+
 1.  Create a release by going to your repo's `releases` url.
 		
 	- Click on the *Draft a new release* button
@@ -34,7 +40,7 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 	- Do not check the *This is a pre-release* checkbox if you want your release added to the BCL.
 	- When you are ready click on *Publish release* button
 
-1.  The BCL will then index your new content.  To see the status of your repo, including indexing errors, visit the BCL's Dashboard page.
+1.  The BCL will then index your new content.  To see the status of your repo, including indexing errors, visit the [BCL Dashboard](https://bcl.nrel.gov/dashboard) page.
 
 
 ## Existing Content
@@ -59,7 +65,7 @@ Measure repositories should be structured as an [OpenStudio Extension Gem](https
 
 The appropriate structure for component repositories is to place components in the `lib/components/` directory.
 
-There are no tests to run on components at this time.
+There are no required tests to be run against components; however, it is recommended that the components are tested using a testing framework such as Ruby spec or py test.
 
 
 
