@@ -29,8 +29,8 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 		- Select `Let me select individual events` and click on the `Releases` checkbox.  We will only pull content when a release is created and published.
 		- Click the *Add webhook* button at the bottom of the page.
 
-	! [webhook setup part 1](/assets/webhook_pt1.png)
-	! [webhook setup part 2](/assets/webhook_pt2.png)
+	![webhook setup part 1](/assets/webhook_pt1.png)
+	![webhook setup part 2](/assets/webhook_pt2.png)
 
 
 1.  Create a release by going to your repo's `releases` url.
