@@ -29,6 +29,8 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 		- Select `Let me select individual events` and click on the `Releases` checkbox.  We will only pull content when a release is created and published.
 		- Click the *Add webhook* button at the bottom of the page.
 
+	Screenshots of the *Add webhook* process:
+
 	![webhook setup part 1](/assets/webhook_pt1.png)
 	![webhook setup part 2](/assets/webhook_pt2.png)
 
@@ -71,4 +73,4 @@ There are no required tests to be run against components; however, it is recomme
 
 ## Developing New Content
 
-<TODO>: Describe the workflow to follow for making new components and measures (and creating UUID/VersionID.  Point to the measure and component taxonomies. 
+TODO: Describe the workflow to follow for making new components and measures (and creating UUID/VersionID.  Point to the measure and component taxonomies. 
