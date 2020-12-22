@@ -44,8 +44,10 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 
 1.  The BCL will then index your new content.  To see the status of your repo, including indexing errors, visit the [BCL Dashboard](https://bcl.nrel.gov/dashboard) page.
 
+For information on repo structure, see the Content section below.
 
-## Existing Content
+
+## Content
 
 ### Measure Repos
 
@@ -53,7 +55,17 @@ Measure repositories should be structured as an [OpenStudio Extension Gem](https
 
 - Follow the directions to [initialize a new extension gem](https://github.com/NREL/openstudio-extension-gem#initializing-a-new-extension-gem) for your measures
 
-- Measures should be placed in the `lib/measures/` directory.
+- Measures should be placed in the `lib/measures/` directory. 
+
+- While nested directories can be used to organize your measures within the `lib/measures/` directory, the structure will be flattened when imported into the BCL.  **Ensure that all measure directory names are unique across the repository.**
+
+- Each measure should have a unique UUID and versionID. Use OpenStudio or PAT to create new measures so that valid UUIDs are ensured.
+
+- Each measure should have a valid Tag classification defined in the `measure.xml` file.  For example, to categorize a measure as a 'QAQC' measure, use the full hierarchy path delimited with periods, as follows:  
+	```ruby
+	<tags><tag>Reporting.QAQC</tag></tags>
+	```
+The full Measure Tags hierarchy is available on the BCL website.
 
 - Use the rake tasks provided by the OpenStudio Extension Gem to test your measures:
 	```ruby
@@ -69,7 +81,17 @@ The appropriate structure for component repositories is to place components in t
 
 There are no required tests to be run against components; however, it is recommended that the components are tested using a testing framework such as Ruby spec or py test.
 
+Additional information:
 
+- While nested directories can be used to organize your components within the `lib/components/` directory, the structure will be flattened when imported into the BCL.  **Ensure that all component directory names are unique across the repository.**
+
+- Each component should have a unique UUID and versionID. Use OpenStudio to create new components so that valid UUIDs are ensured.
+
+- Each component should have a valid Tag classification defined in the `component.xml` file.  For example, to categorize a component as a 'Window' component, use the full hierarchy path delimited with periods, as follows:  
+	```ruby
+	<tags><tag>Construction Assembly.Fenestration.Window</tag></tags>
+	```
+The full Component Tags hierarchy is available on the BCL website.
 
 ## Developing New Content
 
