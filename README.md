@@ -61,11 +61,11 @@ Measure repositories should be structured as an [OpenStudio Extension Gem](https
 
 - Each measure should have a unique UUID and versionID. Use OpenStudio or PAT to create new measures so that valid UUIDs are ensured.
 
-- Each measure should have a valid Tag classification defined in the `measure.xml` file.  For example, to categorize a measure as a 'QAQC' measure, use the full hierarchy path delimited with periods, as follows:  
+- Each measure should have a valid Tag classification defined in the `measure.xml` file.  The full Measure Tags hierarchy is available on the BCL website. For example, to categorize a measure as a 'QAQC' measure, use the full hierarchy path delimited with periods, as follows:  
 	```ruby
 	<tags><tag>Reporting.QAQC</tag></tags>
 	```
-The full Measure Tags hierarchy is available on the BCL website.
+
 
 - Use the rake tasks provided by the OpenStudio Extension Gem to test your measures:
 	```ruby
@@ -87,11 +87,10 @@ Additional information:
 
 - Each component should have a unique UUID and versionID. Use OpenStudio to create new components so that valid UUIDs are ensured.
 
-- Each component should have a valid Tag classification defined in the `component.xml` file.  For example, to categorize a component as a 'Window' component, use the full hierarchy path delimited with periods, as follows:  
+- Each component should have a valid Tag classification defined in the `component.xml` file. The full Component Tags hierarchy is available on the BCL website. For example, to categorize a component as a 'Window' component, use the full hierarchy path delimited with periods, as follows:  
 	```ruby
 	<tags><tag>Construction Assembly.Fenestration.Window</tag></tags>
 	```
-The full Component Tags hierarchy is available on the BCL website.
 
 ## Developing New Content
 
