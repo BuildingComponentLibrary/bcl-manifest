@@ -9,5 +9,10 @@
 		"org": "BuildingComponentLibrary",
 		"type": "component",
 		"url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
+	},{
+		"name": "bcl-test-components-2",
+		"org": "BuildingComponentLibrary",
+		"type": "component",
+		"url": "https://github.com/BuildingComponentLibrary/bcl-test-components-2"
 	}]
 }
