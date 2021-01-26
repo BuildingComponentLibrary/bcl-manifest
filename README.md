@@ -8,7 +8,7 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 
 1. Review the sections below to learn how to gather existing content or create new content for the BCL.
 
-1. Once your repository is created, clone the [BCL Manifest](https://github.com/BuildingComponentLibrary/bcl-manifest) repository and add a section to the `bcl_manifest.json` file with basic information about your repo:
+1. Once your repository is created, fork the [BCL Manifest](https://github.com/BuildingComponentLibrary/bcl-manifest) repository and add a section to the `bcl_manifest.json` file with basic information about your repo:
 	- github repo name
 	- github organization
 	- type of repo (enter either `measure` or `component`)
@@ -16,14 +16,14 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 
 	![example manifest](/assets/manifest_example.png)
 
-1. Create a Pull Request with your changes.  A BCL admin will review your request and repository.  If acceptable, the PR will be merged to the main branch.
+1. Create a Pull Request with your changes against the original BCL Manifest develop branch.  A BCL admin will review your request and repository.  If acceptable, the PR will be merged.
 
 1. Once the PR is merged, set up webhooks on your repository so that releases are automatically added to the BCL:
 	- Select `webhooks` from the left navigation menu on your repo's `settings` page, or go to `settings/hooks`.
 
 	- Click on the *Add webhook* button
 
-		- Enter the payload URL: `TO BE DETERMINED`
+		- Enter the payload URL: `https://bcl.nrel.gov/release`
 		- Set the content type to: `application/json`
 		- Select `Enable SSL verification`
 		- Select `Let me select individual events` and click on the `Releases` checkbox.  We will only pull content when a release is created and published.
