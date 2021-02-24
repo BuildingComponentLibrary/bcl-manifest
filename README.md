@@ -59,6 +59,8 @@ Measure repositories should be structured as an [OpenStudio Extension Gem](https
 
 - While nested directories can be used to organize your measures within the `lib/measures/` directory, the structure will be flattened when imported into the BCL.  **Ensure that all measure directory names are unique across the repository.**
 
+- Each measure directory should contain a LICENSE file.  A LICENSE.md file should also be placed in the root of your repo. The BCL can only index measures containing a license. View an [example LICENSE file](https://github.com/NREL/openstudio-extension-gem/blob/develop/LICENSE.md).
+
 - Each measure should have a unique UUID and versionID. Use OpenStudio or PAT to create new measures so that valid UUIDs are ensured.
 
 - Each measure should have a valid Tag classification defined in the `measure.xml` file.  The full Measure Tags hierarchy is available on the BCL website. For example, to categorize a measure as a 'QAQC' measure, use the full hierarchy path delimited with periods, as follows:  
