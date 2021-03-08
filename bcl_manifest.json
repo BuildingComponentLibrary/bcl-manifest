@@ -1,15 +1,5 @@
 {"repos" : 
 	[{
-		"name": "bcl-test-measures-gem",
-		"org": "BuildingComponentLibrary",
-		"type": "measure",
-		"url": "https://github.com/BuildingComponentLibrary/bcl-test-measures-gem"
-	},{
-		"name": "bcl-test-components",
-		"org": "BuildingComponentLibrary",
-		"type": "component",
-		"url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
-	},{
 		"name": "legacy-NREL-measures-gem",
 		"org": "BuildingComponentLibrary",
 		"type": "measure",
