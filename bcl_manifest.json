@@ -9,5 +9,10 @@
 		"org": "BuildingComponentLibrary",
 		"type": "component",
 		"url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
+	},{
+		"name": "openstudio-common-measures-gem",
+		"org": "NREL",
+		"type": "measure",
+		"url": "https://github.com/NREL/openstudio-common-measures-gem"
 	}]
 }
