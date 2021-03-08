@@ -1,10 +1,5 @@
 {"repos" : 
-	[{{
-		"name": "legacy-NREL-measures-gem",
-		"org": "BuildingComponentLibrary",
-		"type": "measure",
-		"url": "https://github.com/BuildingComponentLibrary/legacy-NREL-measures-gem"
-	},{
+	[{
 		"name": "openstudio-common-measures-gem",
 		"org": "NREL",
 		"type": "measure",
