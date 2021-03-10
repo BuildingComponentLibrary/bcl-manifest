@@ -9,5 +9,10 @@
 		"org": "BuildingComponentLibrary",
 		"type": "component",
 		"url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
+	},{
+		"name": "legacy-NREL-measures-gem",
+		"org": "BuildingComponentLibrary",
+		"type": "measure",
+		"url": "https://github.com/BuildingComponentLibrary/legacy-NREL-measures-gem"
 	}]
 }
