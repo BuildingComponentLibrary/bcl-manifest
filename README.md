@@ -14,7 +14,7 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 	- type of repo (enter either `measure` or `component`)
 	- github URL of the repo
 
-	![example manifest](/assets/manifest_example.png)
+	![example manifest](assets/manifest_example.png)
 
 1. Create a Pull Request with your changes.  A BCL admin will review your request and repository.  If acceptable, the PR will be merged to the main branch.
 
@@ -31,12 +31,12 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 
 	Screenshots of the *Add webhook* process:
 
-	![webhook setup part 1](/assets/webhook_pt1.png)
-	![webhook setup part 2](/assets/webhook_pt2.png)
+	![webhook setup part 1](assets/webhook_pt1.png)
+	![webhook setup part 2](assets/webhook_pt2.png)
 
 
 1.  Create a release by going to your repo's `releases` url.
-		
+
 	- Click on the *Draft a new release* button
 	- Enter a title, tag version, name, and description.
 	- Do not check the *This is a pre-release* checkbox if you want your release added to the BCL.
@@ -55,7 +55,7 @@ Measure repositories should be structured as an [OpenStudio Extension Gem](https
 
 - Follow the directions to [initialize a new extension gem](https://github.com/NREL/openstudio-extension-gem#initializing-a-new-extension-gem) for your measures
 
-- Measures should be placed in the `lib/measures/` directory. 
+- Measures should be placed in the `lib/measures/` directory.
 
 - While nested directories can be used to organize your measures within the `lib/measures/` directory, the structure will be flattened when imported into the BCL.  **Ensure that all measure directory names are unique across the repository.**
 
@@ -63,7 +63,7 @@ Measure repositories should be structured as an [OpenStudio Extension Gem](https
 
 - Each measure should have a unique UUID and versionID. Use OpenStudio or PAT to create new measures so that valid UUIDs are ensured.
 
-- Each measure should have a valid Tag classification defined in the `measure.xml` file.  The full Measure Tags hierarchy is available on the BCL website. For example, to categorize a measure as a 'QAQC' measure, use the full hierarchy path delimited with periods, as follows:  
+- Each measure should have a valid Tag classification defined in the `measure.xml` file.  The full Measure Tags hierarchy is available on the BCL website. For example, to categorize a measure as a 'QAQC' measure, use the full hierarchy path delimited with periods, as follows:
 	```ruby
 	<tags><tag>Reporting.QAQC</tag></tags>
 	```
@@ -89,11 +89,11 @@ Additional information:
 
 - Each component should have a unique UUID and versionID. Use OpenStudio to create new components so that valid UUIDs are ensured.
 
-- Each component should have a valid Tag classification defined in the `component.xml` file. The full Component Tags hierarchy is available on the BCL website. For example, to categorize a component as a 'Window' component, use the full hierarchy path delimited with periods, as follows:  
+- Each component should have a valid Tag classification defined in the `component.xml` file. The full Component Tags hierarchy is available on the BCL website. For example, to categorize a component as a 'Window' component, use the full hierarchy path delimited with periods, as follows:
 	```ruby
 	<tags><tag>Construction Assembly.Fenestration.Window</tag></tags>
 	```
 
 ## Developing New Content
 
-TODO: Describe the workflow to follow for making new components and measures (and creating UUID/VersionID.  Point to the measure and component taxonomies. 
+TODO: Describe the workflow to follow for making new components and measures (and creating UUID/VersionID.  Point to the measure and component taxonomies.
