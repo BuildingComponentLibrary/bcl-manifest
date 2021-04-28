@@ -5,14 +5,29 @@
     "type": "measure",
     "url": "https://github.com/BuildingComponentLibrary/bcl-test-measures-gem"
   }, {
-    "name": "bcl-test-components",
+    "name": "nrel-components",
     "org": "BuildingComponentLibrary",
     "type": "component",
-    "url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
+    "url": "https://github.com/BuildingComponentLibrary/nrel-components"
   }, {
-    "name": "legacy-NREL-measures-gem",
+    "name": "tpex-components",
     "org": "BuildingComponentLibrary",
-    "type": "measure",
-    "url": "https://github.com/BuildingComponentLibrary/legacy-NREL-measures-gem"
+    "type": "component",
+    "url": "https://github.com/BuildingComponentLibrary/tpex-components"
+  }, {
+    "name": "weather-file-components",
+    "org": "BuildingComponentLibrary",
+    "type": "component",
+    "url": "https://github.com/BuildingComponentLibrary/weather-file-components"
+  }, {
+    "name": "location-dependent-components",
+    "org": "BuildingComponentLibrary",
+    "type": "component",
+    "url": "https://github.com/BuildingComponentLibrary/location-dependent-components"
+  }, {
+    "name": "site-components",
+    "org": "BuildingComponentLibrary",
+    "type": "component",
+    "url": "https://github.com/BuildingComponentLibrary/site-components"
   }]
 }
