@@ -29,5 +29,15 @@
     "org": "BuildingComponentLibrary",
     "type": "component",
     "url": "https://github.com/BuildingComponentLibrary/site-components"
+  }, {
+    "name": "design-day-components-1",
+    "org": "BuildingComponentLibrary",
+    "type": "component",
+    "url": "https://github.com/BuildingComponentLibrary/design-day-components-1"
+  }, {
+    "name": "design-day-components-2",
+    "org": "BuildingComponentLibrary",
+    "type": "component",
+    "url": "https://github.com/BuildingComponentLibrary/design-day-components-2"
   }]
 }
