@@ -14,5 +14,10 @@
     "org": "BuildingComponentLibrary",
     "type": "measure",
     "url": "https://github.com/BuildingComponentLibrary/legacy-NREL-measures-gem"
+  }, {
+    "name": "openstudio-effibem-measures-gem",
+    "org": "jmarrec",
+    "type": "measure",
+    "url": "https://github.com/jmarrec/openstudio-effibem-measures-gem"
   }]
 }
