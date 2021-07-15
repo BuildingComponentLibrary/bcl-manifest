@@ -1,13 +1,48 @@
-{"repos" : 
-	[{
-		"name": "bcl-test-measures-gem",
-		"org": "BuildingComponentLibrary",
-		"type": "measure",
-		"url": "https://github.com/BuildingComponentLibrary/bcl-test-measures-gem"
-	},{
-		"name": "bcl-test-components",
-		"org": "BuildingComponentLibrary",
-		"type": "component",
-		"url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
-	}]
+{
+  "repos": [{
+    "name": "bcl-test-measures-gem",
+    "org": "BuildingComponentLibrary",
+    "type": "measure",
+    "url": "https://github.com/BuildingComponentLibrary/bcl-test-measures-gem"
+  }, {
+    "name": "bcl-test-components",
+    "org": "BuildingComponentLibrary",
+    "type": "component",
+    "url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
+  }, {
+    "name": "legacy-NREL-measures-gem",
+    "org": "BuildingComponentLibrary",
+    "type": "measure",
+    "url": "https://github.com/BuildingComponentLibrary/legacy-NREL-measures-gem"
+  }, {
+    "name": "OpenStudio Common Measures",
+    "org": "NREL",
+    "type": "measure",
+    "url": "https://github.com/NREL/openstudio-common-measures-gem"
+  }, {
+    "name": "OpenStudio ModelArticulation",
+    "org": "NREL",
+    "type": "measure",
+    "url": "https://github.com/NREL/openstudio-model-articulation-gem"
+  }, {
+    "name": "OpenStudio EE Measures",
+    "org": "NREL",
+    "type": "measure",
+    "url": "https://github.com/NREL/openstudio-ee-gem"
+  }, {
+    "name": "OpenStudio Calibration Measures",
+    "org": "NREL",
+    "type": "measure",
+    "url": "https://github.com/NREL/openstudio-calibration-gem"
+  }, {
+    "name": "OpenStudio AEDG Measures",
+    "org": "NREL",
+    "type": "measure",
+    "url": "https://github.com/NREL/openstudio-aedg-gem"
+  }, {
+    "name": "Openstudio Load Flexibility Measures Gem",
+    "org": "NREL",
+    "type": "measure",
+    "url": "https://github.com/NREL/openstudio-load-flexibility-measures-gem"
+  }]
 }
