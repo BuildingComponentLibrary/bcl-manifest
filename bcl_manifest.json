@@ -44,5 +44,10 @@
     "org": "NREL",
     "type": "measure",
     "url": "https://github.com/NREL/openstudio-load-flexibility-measures-gem"
+  }, {
+    "name": "Automatic Magic Measures",
+    "org": "automaticmagic",
+    "type": "measure",
+    "url": "github.com/automaticmagic/automaticmagic-measures"
   }]
 }
