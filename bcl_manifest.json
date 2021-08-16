@@ -44,5 +44,10 @@
     "org": "NREL",
     "type": "measure",
     "url": "https://github.com/NREL/openstudio-load-flexibility-measures-gem"
+  }, {
+    "name": "openstudio-effibem-measures-gem",
+    "org": "jmarrec",
+    "type": "measure",
+    "url": "https://github.com/jmarrec/openstudio-effibem-measures-gem"
   }]
 }
