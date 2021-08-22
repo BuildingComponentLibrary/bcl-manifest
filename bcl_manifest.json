@@ -1,15 +1,6 @@
 {
-  "repos": [{
-    "name": "bcl-test-measures-gem",
-    "org": "BuildingComponentLibrary",
-    "type": "measure",
-    "url": "https://github.com/BuildingComponentLibrary/bcl-test-measures-gem"
-  }, {
-    "name": "bcl-test-components",
-    "org": "BuildingComponentLibrary",
-    "type": "component",
-    "url": "https://github.com/BuildingComponentLibrary/bcl-test-components"
-  }, {
+  "repos": [
+  {
     "name": "legacy-NREL-measures-gem",
     "org": "BuildingComponentLibrary",
     "type": "measure",
@@ -48,6 +39,11 @@
     "name": "Automatic Magic Measures",
     "org": "automaticmagic",
     "type": "measure",
-    "url": "github.com/automaticmagic/automaticmagic-measures"
+    "url": "https://github.com/automaticmagic/automaticmagic-measures"
+  }, {
+    "name": "openstudio-effibem-measures-gem",
+    "org": "jmarrec",
+    "type": "measure",
+    "url": "https://github.com/jmarrec/openstudio-effibem-measures-gem"
   }]
 }
