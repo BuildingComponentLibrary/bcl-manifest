@@ -1,5 +1,6 @@
 {
-  "repos": [{
+  "repos": [
+  {
     "name": "legacy-NREL-measures-gem",
     "org": "BuildingComponentLibrary",
     "type": "measure",
@@ -34,6 +35,11 @@
     "org": "NREL",
     "type": "measure",
     "url": "https://github.com/NREL/openstudio-load-flexibility-measures-gem"
+  }, {
+    "name": "Automatic Magic Measures",
+    "org": "automaticmagic",
+    "type": "measure",
+    "url": "https://github.com/automaticmagic/automaticmagic-measures"
   }, {
     "name": "openstudio-effibem-measures-gem",
     "org": "jmarrec",
