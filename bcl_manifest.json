@@ -45,5 +45,10 @@
     "org": "jmarrec",
     "type": "measure",
     "url": "https://github.com/jmarrec/openstudio-effibem-measures-gem"
+  }, {
+    "name": "Thermal Bridging and Derating (TBD)",
+    "org": "rd2",
+    "type": "measure",
+    "url": "https://github.com/rd2/tbd"
   }]
 }
