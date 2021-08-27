@@ -50,5 +50,10 @@
     "org": "rd2",
     "type": "measure",
     "url": "https://github.com/rd2/tbd"
+  },{
+    "name": "OpenStudio_Components_HEPLLC",
+    "org": "Ski90Moo",
+    "type": "component",
+    "url": "https://github.com/Ski90Moo/OpenStudio_Components_HEPLLC"
   }]
 }
