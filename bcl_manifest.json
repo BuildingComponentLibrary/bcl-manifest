@@ -56,7 +56,7 @@
     "type": "component",
     "url": "https://github.com/Ski90Moo/OpenStudio_Components_HEPLLC"
   },{
-    "name": "Building Performance Simulation OpenStudio Measures",
+    "name": "openstudio-measures",
     "org": "BuildingPerformanceSimulation",
     "type": "measure",
     "url": "https://github.com/BuildingPerformanceSimulation/openstudio-measures"
