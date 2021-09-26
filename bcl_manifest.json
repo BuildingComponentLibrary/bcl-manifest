@@ -56,7 +56,7 @@
     "type": "component",
     "url": "https://github.com/Ski90Moo/OpenStudio_Components_HEPLLC"
   },{
-    "name": "OpenStudio Occupant-related Variability Measures Gem",
+    "name": "OpenStudio-Occupant-Variability-Gem",
     "org": "LBNL-ETA",
     "type": "measure",
     "url": "https://github.com/LBNL-ETA/OpenStudio-Occupant-Variability-Gem/tree/master/lib"
