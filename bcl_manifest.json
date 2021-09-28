@@ -64,6 +64,6 @@
     "name": "OpenStudio-Occupant-Variability-Gem",
     "org": "LBNL-ETA",
     "type": "measure",
-    "url": "https://github.com/LBNL-ETA/OpenStudio-Occupant-Variability-Gem/tree/master/lib"
+    "url": "https://github.com/LBNL-ETA/OpenStudio-Occupant-Variability-Gem"
   }]
 }
