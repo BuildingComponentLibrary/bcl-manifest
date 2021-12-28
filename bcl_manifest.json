@@ -56,9 +56,9 @@
     "type": "component",
     "url": "https://github.com/Ski90Moo/OpenStudio_Components_HEPLLC"
   },{
-    "name": "Ski90Moo-OpenStudio_Components_HEPLLC_2",
+    "name": "OpenStudio_Components_HEPLLC_2",
     "org": "Ski90Moo",
     "type": "component",
-    "url": "https://github.com/Ski90Moo/Ski90Moo-OpenStudio_Components_HEPLLC_2"
+    "url": "https://github.com/Ski90Moo/OpenStudio_Components_HEPLLC_2"
   }]
 }
