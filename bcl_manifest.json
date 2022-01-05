@@ -55,5 +55,15 @@
     "org": "Ski90Moo",
     "type": "component",
     "url": "https://github.com/Ski90Moo/OpenStudio_Components_HEPLLC"
+  },{
+    "name": "openstudio-measures",
+    "org": "BuildingPerformanceSimulation",
+    "type": "measure",
+    "url": "https://github.com/BuildingPerformanceSimulation/openstudio-measures"
+  },{
+    "name": "OpenStudio-Occupant-Variability-Gem",
+    "org": "LBNL-ETA",
+    "type": "measure",
+    "url": "https://github.com/LBNL-ETA/OpenStudio-Occupant-Variability-Gem"
   }]
 }
