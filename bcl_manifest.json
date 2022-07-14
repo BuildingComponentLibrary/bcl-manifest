@@ -66,6 +66,11 @@
     "type": "measure",
     "url": "https://github.com/LBNL-ETA/OpenStudio-Occupant-Variability-Gem"
   },{
+    "name": "bcl_components",
+    "org": "macabilo2",
+    "type": "component",
+    "url": "https://github.com/macabilo2/bcl_components"
+  },{
     "name": "OpenStudio_Measures_HEPLLC",
     "org": "Ski90Moo",
     "type": "measure",
