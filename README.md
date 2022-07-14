@@ -93,7 +93,4 @@ Additional information:
 	```ruby
 	<tags><tag>Construction Assembly.Fenestration.Window</tag></tags>
 	```
-
-## Developing New Content
-
-TODO: Describe the workflow to follow for making new components and measures (and creating UUID/VersionID.  Point to the measure and component taxonomies.
+  
