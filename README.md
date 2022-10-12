@@ -77,6 +77,8 @@ Measure repositories should be structured as an [OpenStudio Extension Gem](https
 
 - Commit the updates back to your repo.
 
+- *Important Note*: OpenStudio cannot load native extension gems dependencies (like nokogiri) included in measure gems. Your measure gem repo cannot depend on any of these gems or the simulations will not run.  OpenStudio does support a few native extension gems; you can view the list by clicking on the `Gemfile` link for the OpenStudio version you are using in the [compatibility matrix](https://github.com/NREL/OpenStudio/wiki/OpenStudio-SDK-Version-Compatibility-Matrix). These included gems are safe to include in your measure gem.
+
 ### Component Repos
 
 The appropriate structure for component repositories is to place components in the `lib/components/` directory.
