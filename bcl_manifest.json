@@ -80,5 +80,10 @@
     "org": "LBNL-ETA",
     "type": "component",
     "url": "https://github.com/LBNL-ETA/LBNL-BCL-Windows"
+  },{
+    "name": "OpenStudio_components_ETS",
+    "org": "HoussemYounes",
+    "type": "component",
+    "url": "https://github.com/HoussemYounes/OpenStudio_components_ETS"
   }]
 }
