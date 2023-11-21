@@ -80,5 +80,10 @@
     "org": "LBNL-ETA",
     "type": "component",
     "url": "https://github.com/LBNL-ETA/LBNL-BCL-Windows"
+  },{
+    "name": "OpenStudio Building Energy Standard Measures",
+    "org": "PNNL",
+    "type": "measure",
+    "url": "https://github.com/pnnl/openstudio-building-energy-standard-measures-gem"
   }]
 }
