@@ -85,5 +85,10 @@
     "org": "PNNL",
     "type": "measure",
     "url": "https://github.com/pnnl/openstudio-building-energy-standard-measures-gem"
+  }, {
+    "name": "Openstudio NIST Birds Nest Measure",
+    "org": "NIST",
+    "type": "measure",
+    "url": "https://github.com/usnistgov/openstudio-birds-nest-gem"
   }]
 }
