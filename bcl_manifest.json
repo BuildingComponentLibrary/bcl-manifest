@@ -90,5 +90,10 @@
     "org": "NIST",
     "type": "measure",
     "url": "https://github.com/usnistgov/openstudio-birds-nest-gem"
+  },{
+    "name": "Openstudio AMBER Group Measures",
+    "org": "AMBER Group, Colorado School of Mines",
+    "type": "measure",
+    "url": "https://github.com/AMBER-Group-CSM/openstudio-amber-measures-gem"
   }]
 }
