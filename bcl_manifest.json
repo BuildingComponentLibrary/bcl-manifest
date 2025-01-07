@@ -95,5 +95,10 @@
     "org": "AMBER Group, Colorado School of Mines",
     "type": "measure",
     "url": "https://github.com/AMBER-Group-CSM/openstudio-amber-measures-gem"
+  }, {
+    "name": "Openstudio_Measures_meftah",
+    "org": "meftaH416",
+    "type": "measure",
+    "url": "https://github.com/meftaH416/Openstudio_Measures_meftah"
   }]
 }
