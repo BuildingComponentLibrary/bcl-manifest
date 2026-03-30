@@ -100,5 +100,10 @@
     "org": "meftaH416",
     "type": "measure",
     "url": "https://github.com/meftaH416/Openstudio_Measures_meftah"
+  }, {
+    "name": "OpenStudio_Components_HEPLLC",
+    "org": "yvzhe0607-design",
+    "type": "component",
+    "url": "https://github.com/yvzhe0607-design/OpenStudio_Components_HEPLLC/tree/main/lib/components/Australian_9b_Spaces"
   }]
 }
