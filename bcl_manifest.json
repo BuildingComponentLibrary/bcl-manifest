@@ -1,40 +1,40 @@
 {
   "repos": [
   {
-    "name": "legacy-NREL-measures-gem",
+    "name": "legacy-NLR-measures-gem",
     "org": "BuildingComponentLibrary",
     "type": "measure",
-    "url": "https://github.com/BuildingComponentLibrary/legacy-NREL-measures-gem"
+    "url": "https://github.com/BuildingComponentLibrary/legacy-NLR-measures-gem"
   }, {
     "name": "OpenStudio Common Measures",
-    "org": "NREL",
+    "org": "NatLabRockies",
     "type": "measure",
-    "url": "https://github.com/NREL/openstudio-common-measures-gem"
+    "url": "https://github.com/NatLabRockies/openstudio-common-measures-gem"
   }, {
     "name": "OpenStudio ModelArticulation",
-    "org": "NREL",
+    "org": "NatLabRockies",
     "type": "measure",
-    "url": "https://github.com/NREL/openstudio-model-articulation-gem"
+    "url": "https://github.com/NatLabRockies/openstudio-model-articulation-gem"
   }, {
     "name": "OpenStudio EE Measures",
-    "org": "NREL",
+    "org": "NatLabRockies",
     "type": "measure",
-    "url": "https://github.com/NREL/openstudio-ee-gem"
+    "url": "https://github.com/NatLabRockies/openstudio-ee-gem"
   }, {
     "name": "OpenStudio Calibration Measures",
-    "org": "NREL",
+    "org": "NatLabRockies",
     "type": "measure",
-    "url": "https://github.com/NREL/openstudio-calibration-gem"
+    "url": "https://github.com/NatLabRockies/openstudio-calibration-gem"
   }, {
     "name": "OpenStudio AEDG Measures",
-    "org": "NREL",
+    "org": "NatLabRockies",
     "type": "measure",
-    "url": "https://github.com/NREL/openstudio-aedg-gem"
+    "url": "https://github.com/NatLabRockies/openstudio-aedg-gem"
   }, {
     "name": "Openstudio Load Flexibility Measures Gem",
-    "org": "NREL",
+    "org": "NatLabRockies",
     "type": "measure",
-    "url": "https://github.com/NREL/openstudio-load-flexibility-measures-gem"
+    "url": "https://github.com/NatLabRockies/openstudio-load-flexibility-measures-gem"
   }, {
     "name": "Automatic Magic Measures",
     "org": "automaticmagic",
