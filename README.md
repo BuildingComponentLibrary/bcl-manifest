@@ -1,5 +1,8 @@
 # Building Component Library Manifest
 
+
+**The BCL has moved to https://bcl.nlr.gov. Update your bookmarks for uninterrupted access to the library.**
+
 This repo is a manifest of all GitHub repositories providing content to the BCL.  Repos can be either `component` or `measure` repos.  Repos must be public and hosted on [Github.com](https://github.com).
 
 ## Contribute Content
