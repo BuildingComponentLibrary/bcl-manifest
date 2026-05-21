@@ -100,5 +100,10 @@
     "org": "meftaH416",
     "type": "measure",
     "url": "https://github.com/meftaH416/Openstudio_Measures_meftah"
+  }, {
+    "name": "openstudio_measures",
+    "org": "dndiaye2026",
+    "type": "measure",
+    "url": "https://github.com/dndiaye2026/openstudio_measures"
   }]
 }
