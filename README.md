@@ -26,7 +26,7 @@ Follow the instructions below to contribute content to the BCL.  All contributed
 
 	- Click on the *Add webhook* button
 
-		- Enter the payload URL: `https://bcl.nrel.gov/release`
+		- Enter the payload URL: `https://bcl.nlr.gov/release`
 		- Set the content type to: `application/json`
 		- Select `Enable SSL verification`
 		- Select `Let me select individual events` and click on the `Releases` checkbox.  We will only pull content when a release is created and published.
