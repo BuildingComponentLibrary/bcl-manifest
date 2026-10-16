@@ -100,5 +100,10 @@
     "org": "meftaH416",
     "type": "measure",
     "url": "https://github.com/meftaH416/Openstudio_Measures_meftah"
+  }, {
+    "name": "OpenStudio_Components_NaturalMaterials",
+    "org": "kk-03241996",
+    "type": "component",
+    "url": "https://github.com/kk-03241996/OpenStudio_Components_NaturalMaterials"
   }]
 }
