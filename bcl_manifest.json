@@ -105,6 +105,7 @@
     "org": "dndiaye2026",
     "type": "measure",
     "url": "https://github.com/dndiaye2026/openstudio_measures"
+  }, {
     "name": "OpenStudio_Components_NaturalMaterials",
     "org": "kk-03241996",
     "type": "component",
