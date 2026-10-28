@@ -110,5 +110,10 @@
     "org": "kk-03241996",
     "type": "component",
     "url": "https://github.com/kk-03241996/OpenStudio_Components_NaturalMaterials"
+  }, {
+    "name": "test_measures_repo1",
+    "org": "kflemin",
+    "type": "measure",
+    "url": "https://github.com/kflemin/test_measures_repo1"
   }]
 }
